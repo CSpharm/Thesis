@@ -4,7 +4,7 @@ from plotly.offline import plot
 
 """
 To run this file, please install the package for plotly in this link :https://plotly.com/python/getting-started/
-This file generates results for RQ4, including Figure 5.2, and data for Table 5.5 and Table 5.6
+This file generates results for RQ4, including Figure 5.2 (shown in a html), and data for Table 5.5 and Table 5.6
 """
 
 def main():

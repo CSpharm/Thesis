@@ -2,12 +2,12 @@
 
 Before executing gen_csv.py, ensure the Osmium 1.13.1 (https://osmcode.org/osmium-tool/) is installed.
 
-(![image](https://github.com/CSpharm/Thesis/blob/main/Dissertation_0911/files/pre_process/readme_preprocess.png))
+(![image](https://github.com/CSpharm/Thesis/blob/main/thesis/files/pre_process/readme_preprocess.png))
 
 
 (or see the readme_preprocess.png in this folder)
 
-As the original data source is too big, this zip file only contains the dataset in the phase 2 and phase 3.
+As the original data source is too big, this zip file only contains the data in phase 2 and phase 3.
 
 Phase 2: Use gen_csv.py to transform 'amenities.osh.pbf' to different periods including history, pre-pandemic, and post-pandemic
 

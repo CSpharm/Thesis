@@ -81,7 +81,6 @@ def plot(dict_pre,dict_post):
     plt.axhline(y=100,c="y",ls="--",lw=2)
     plt.savefig('RQ1_group (Figure 4.1).png',dpi=500)
     # plt.show()
-    plt.clf()
 
 if __name__ == '__main__':
 
