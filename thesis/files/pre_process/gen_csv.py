@@ -24,18 +24,18 @@ def main():
     """
 
     # Step 1: might take 3-4 mins to transform 200000 records in total to 3 csv files
-    # transformation('history', '2006-01-01','2020-04-01')
-    # transformation('precovid', '2019-04-01','2020-04-01')
-    # transformation('postcovid', '2020-04-01','2021-04-01')
+    transformation('history', '2006-01-01','2020-04-01')
+    transformation('precovid', '2019-04-01','2020-04-01')
+    transformation('postcovid', '2020-04-01','2021-04-01')
 
-    # Step 2
-    df_pre = pd.read_csv('../csv_files/precovid.csv')
-    df_filtered = removeBulk('precovid',df_pre)
-    export_modEdits_csv(df_filtered, outputname='precovid_filtered')
+    # Step 2 : might take 3-4 mins to filter these records
+    # df_pre = pd.read_csv('../csv_files/precovid.csv')
+    # df_filtered = removeBulk('precovid',df_pre)
+    # export_modEdits_csv(df_filtered, outputname='precovid_filtered')
 
-    df_post = pd.read_csv('../csv_files/postcovid.csv')
-    df_filtered = removeBulk('postcovid',df_post)
-    export_modEdits_csv(df_filtered,outputname='postcovid_filtered')
+    # df_post = pd.read_csv('../csv_files/postcovid.csv')
+    # df_filtered = removeBulk('postcovid',df_post)
+    # export_modEdits_csv(df_filtered,outputname='postcovid_filtered')
 
 
 class TimelineHandler(osm.SimpleHandler):
