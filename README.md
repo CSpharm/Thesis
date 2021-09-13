@@ -3,7 +3,7 @@ COMP0073 MSc CS project for OSM user online post-pandemic changes
 
 ![image](https://github.com/CSpharm/Thesis/blob/main/code_listing.png)
 
-# This zip file is submitted for COMP0073 MSc Computer Science project.
+###This zip file is submitted for COMP0073 MSc Computer Science project.
 
 	
 # 1. Required Tools
